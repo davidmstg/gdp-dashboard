@@ -79,7 +79,7 @@ min_value = gdp_df['Year'].min()
 max_value = gdp_df['Year'].max()
 
 from_year, to_year = st.slider(
-    'Whoever reads this is gay?',
+    'Whoever reads this is gay',
     min_value=min_value,
     max_value=max_value,
     value=[min_value, max_value])
